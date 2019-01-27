@@ -20,6 +20,7 @@ public class CarDetail {
 
     public CarDetail(String carName) {
         this.carName = carName;
+        System.out.println("sssssssssssss");
     }
 
     public Integer getCarId() {
@@ -44,5 +45,8 @@ public class CarDetail {
                 "carId=" + carId +
                 ", carName='" + carName + '\'' +
                 '}';
+
     }
+
+
 }
