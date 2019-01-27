@@ -20,6 +20,7 @@ public class CarDetail {
 
     public CarDetail(String carName) {
         this.carName = carName;
+        System.out.println("saja");
     }
 
     public Integer getCarId() {
